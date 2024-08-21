@@ -5,7 +5,7 @@ export class CreateArticleDto {
     title: string;
 
     @ApiProperty ({ required: false })
-    description?: string;
+    description: string;
 
     @ApiProperty()
     body: string;
